@@ -14,7 +14,7 @@ export class App extends Component {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
-            name="Games1" component={Games1}
+            name="Jempol Naga" component={Games1}
           />
           <Stack.Screen name="Games2" component={Games2} />
         </Stack.Navigator>

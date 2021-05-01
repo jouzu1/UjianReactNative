@@ -61,12 +61,12 @@ export class Games1 extends Component {
             for (y = 1; y <= 10; y++) {
                 count++;
                 let countTemp = 0;
-                for (let z = 1; z <= count; z++) {
-                    if (count % z == 0) {
-                        countTemp++;
-                    }
-                }
-                if (countTemp == 2) {
+                // for (let z = 1; z <= count; z++) {
+                //     if (count % z == 0) {
+                //         countTemp++;
+                //     }
+                // }
+                if (count == 1 || count == 2 || count == 3 || count == 5 || count == 8 || count == 13 || count == 21 || count == 34) {
                     this.test.push(<TouchableOpacity onPress={() => {this.setState({fotoAtas: require('./src/image/png-transparent-thumbs-down-art-thumb-signal-emoji-symbol-give-a-thumbs-up-hand-smiley-arm.png')})}}>
                                         <Dislike foto={this.state.fotoAtas} />
                                     </TouchableOpacity>);

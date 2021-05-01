@@ -11,13 +11,6 @@ export class Games1 extends Component {
         }
     }
 
-    test = []
-    // panjang = 10
-    // lebar = 10
-    // count = 0
-    // x = 0
-    // y = 0
-
     onButtonPress = () => {
         this.setState({
             fotoAtas: require('./src/image/png-transparent-thumbs-down-art-thumb-signal-emoji-symbol-give-a-thumbs-up-hand-smiley-arm.png')
